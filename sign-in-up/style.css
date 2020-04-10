@@ -1,5 +1,5 @@
 body {
-    background-image: url('/Untitled (3).png');
+    background-image: url('Untitled (3).png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@ body {
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows:80px 250px 1fr;
+    grid-template-rows:80px 250px 1fr 30px;
     
 }
 
@@ -22,7 +22,7 @@ body {
     grid-row-end: 4;
     justify-self: center;
     border: 1px solid rgb(192, 190, 190);
-    padding: 35px;
+    padding: 50px;
     border-radius: 20px;
     box-shadow: -7px 0px 7px -5px #b6c2f3, 7px 0px 7px -5px #b6c2f3, 5px 5px 15px 5px rgba(0,0,0,0);
 }
