@@ -5,14 +5,12 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #020060;
-
 }
 
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr ;
     grid-template-rows:0.04fr 1fr 0.04fr;
-    
 }
 
 .item{
@@ -24,21 +22,12 @@ body {
     border: 1px solid rgb(192, 190, 190);
     padding:15px 50px 10px 50px;
     border-radius: 20px;
-    box-shadow: -7px 0px 7px -5px #b6c2f3, 7px 0px 7px -5px #b6c2f3, 5px 5px 15px 5px rgba(0,0,0,0);
-    align-self: center;
-    justify-self: center;
+    box-shadow: -7px 0px 7px -5px rgb(252, 213, 219), 7px 0px 7px -5px #b6c2f3, 5px 5px 15px 5px rgba(0,0,0,0);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-/* .logo{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    justify-self: center;
-    align-self: center;
-} */
+
 .item>img {
     width: 250px;
     height: 150px;
@@ -67,4 +56,3 @@ a:hover {
     color:  #4d51ff;
     text-decoration: none;
 }
-
